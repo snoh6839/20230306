@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+.alleft {
+    text-align: left;
+}
+
+.alright {
+    text-align: right;
+}
+
+.alcenter {
+    text-align: center;
+}
+
+.lineH {
+    background: rgb(192, 191, 191);
+    line-height: 12em;
+}
+
+.hWrap {
+    height: 12em;
+    overflow:hidden;
+    white-space:nowrap;
+}
+
+.textUnder {
+    text-decoration: underline;
+}
+
+.textLthrough {
+    text-decoration: line-through;
+}
+
+.textSha {
+    text-shadow: 5px 5px 5px #000;
+}
+
+.textSha1 {
+    text-shadow: -5px 5px 5px #000;
+}
+
+.textSha2 {
+    text-shadow: 5px -5px 5px #000;
+}
+
+.tranCap {
+    text-transform: capitalize;
+}
+
+.tranUp {
+    text-transform: uppercase;
+}
+
+.lSpacing {
+    letter-spacing: 30px;
+}
+
+.wSpacing {
+    word-spacing: 2em;
+}
