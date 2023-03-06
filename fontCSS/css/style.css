@@ -1,0 +1,39 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+
+html {
+    font-size: 10px;
+}
+div {
+    font-size: 16px;
+}
+
+.nanumFont {
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.largeFont {
+    font-size: large;
+}
+
+.smallFont {
+    font-size: small;
+}
+
+.fsizeP {
+    font-size: 20px;
+}
+
+.fsizeE {
+    font-size: 2em;
+}
+
+.fsizeR {
+    font-size: 2rem;
+}
+
+.fontB {
+    font-weight: bold;
+}
+
+.fontOne {font-weight: 100;}

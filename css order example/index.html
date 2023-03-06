@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Selector</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>적용 순위</h1>
+    <div class="container">
+        <h2>선택자에 따른 순위</h2>
+        <p>우선 순위 태그만 선택</p>
+        <p class="cl">같은 태그의 클래스 선택</p>
+        <p class="cl" id="icl">같은 태그 같은 클래스의 아이디 선택</p>
+        <p class="cl" style="color: green;">같은 태그 같은 클래스에 인라인 방식 적용</p>
+        <br>
+        <span class="pl">같은 태그의 클래스 선택</span>
+        <br>
+        <span class="pl" id="ipl">같은 태그 같은 클래스의 아이디 선택</span>
+        <br>
+        <span class="pl" style="color: green;">같은 태그 같은 클래스에 인라인 방식 적용</span>
+        <br>
+        <span>태그만 선택했지만 important를 적용</span>
+        <ul>
+            <li>같은 순위의 적용이라면 더 밑에 적은 것이 우선 적용 된다.</li>
+        </ul>
+    </div>
+    <div class="container">
+        <h2>스타일 상속</h2>
+        <p class="fblack">기본적으로 부모의 스타일을 상속받긴 하지만<br>자식에게 따로 스타일을 줄 경우 적용이 가능하다</p>
+    </div>
+</body>
+</html>

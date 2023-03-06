@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+* {
+    margin: 0; padding: 0;
+}
+
+ul,ol,li {
+    list-style: none;
+}
+h1, h2 {
+    margin-bottom: 10px;
+}
+.container {margin-bottom: 20px; font-weight: bold;}
+
+p {color: red; margin-bottom: 10px;}
+.cl {color: orange;}
+#icl {color: yellow; background: black;}
+
+span {color: red;}
+.pl {color: navy;}
+#ipl {color: blueviolet;}
+span {color: blue !important;}
+
+.fblack {color: black;}

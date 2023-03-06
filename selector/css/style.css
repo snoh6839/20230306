@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+* {
+    margin: 0; padding: 0;
+}
+
+ul,ol,li {
+    list-style: none;
+}
+
+h1 {
+    color: rgb(98, 98, 253);
+}
+
+.bg_gray {
+    background-color: rgb(201, 200, 200);
+}
+
+#large {
+    font-size: large;
+}
+
+span, em {font-weight: bolder;}

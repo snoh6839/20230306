@@ -1,0 +1,22 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+
+.redColor {
+    color: red;
+}
+
+.hslaRed {
+    color: hsl(0, 100%, 50%);
+}
+
+.hslaRedBlur {
+    color: hsla(0, 100%, 50%, .5);
+}
+
+.rgbaRed {color: rgb(255, 0, 0);}
+
+.rgbaRedBlur {color: rgba(255, 0, 0, .5);}
+
+.hexRed {color: #ff0000}
