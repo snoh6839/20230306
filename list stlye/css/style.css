@@ -1,3 +1,8 @@
 @charset "UTF-8";
 
+.noneList {list-style: none;}
+.decimalList {list-style: decimal;}
+/* .imgList {list-style-image: url(../img/1.jpg);} */
 
+.decimalListin {list-style: decimal inside;}
+.decimalListout {list-style: decimal outside;}
